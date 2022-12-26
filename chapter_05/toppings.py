@@ -10,3 +10,9 @@ for requested_topping in requested_toppings:
         print(f"Sorry, we don't have {requested_topping}.")
         
 print("\nFinished making your pizza!")
+
+prova = {
+    'jen': 'python',
+    'fedez': 'C++',
+    'lurca': 'haskell',
+    }
