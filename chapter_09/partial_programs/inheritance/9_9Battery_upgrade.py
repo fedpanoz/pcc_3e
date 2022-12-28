@@ -73,3 +73,9 @@ my_leaf.battery.describe_battery()
 my_leaf.battery.get_range()
 my_leaf.battery.upgrade_battery()
 my_leaf.battery.get_range()
+
+mia_macchina = ElectricCar('volvo', 'puma', 1850)
+mia_macchina.battery.battery_size = 9873
+mia_macchina.battery.describe_battery()
+print(mia_macchina.get_descriptive_name())
+mia_macchina.battery.describe_battery()
