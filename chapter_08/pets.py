@@ -1,6 +1,7 @@
-def describe_pet(pet_name, animal_type='dog'):
-    """Display information about a pet."""
-    print(f"\nI have a {animal_type}.")
-    print(f"My {animal_type}'s name is {pet_name.title()}.")
+def testare_function(argo):
+    for item in argo:
+        print(item)
 
-describe_pet(pet_name='willie')
+
+sms = ['How are you', 'Is it ok', 'you are gorgeous', 'It seems awful']
+testare_function(sms)

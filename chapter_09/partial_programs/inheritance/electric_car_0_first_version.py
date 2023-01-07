@@ -39,3 +39,6 @@ class ElectricCar(Car):
 
 my_leaf = ElectricCar('nissan', 'leaf', 2024)
 print(my_leaf.get_descriptive_name())
+my_leaf.read_odometer()
+my_leaf.increment_odometer(450)
+my_leaf.read_odometer()
