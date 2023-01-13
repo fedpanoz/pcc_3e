@@ -1,8 +1,8 @@
 from pathlib import Path
 
 
-path = Path('pi_digits.txt')
-contents = path.read_text()
+gino = Path('pi_digits.txt')
+contents = gino.read_text()
 
 lines = contents.splitlines()
 for line in lines:
