@@ -6,6 +6,12 @@ favorite_languages = {
       }
 
 for name, languages in favorite_languages.items():
-    print(f"\n{name.title()}'s favorite languages are:")
-    for language in languages:
-        print(f"\t{language.title()}")
+    if len(languages) > 1:
+        print(f"{name}'s favourite languages are:")
+        for language in languages:
+            print(f"{language}")
+    else:
+        print(f"{name}'s favourite language is:")
+        for language in languages:
+            print(f"{language}")
+    print()
