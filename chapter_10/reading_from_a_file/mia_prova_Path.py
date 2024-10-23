@@ -1,4 +1,4 @@
 from pathlib import Path
-contenuto = Path('pi_digits.txt')
-risultato = contenuto.read_text()
+path = Path('pi_digits.txt')
+risultato = path.read_text()
 print(risultato)
