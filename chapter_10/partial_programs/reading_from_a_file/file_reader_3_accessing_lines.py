@@ -7,3 +7,7 @@ contents = path.read_text()
 lines = contents.splitlines()
 for line in lines:
   print(line)
+
+print(type(path))
+print(type(contents))
+print(type(lines))
