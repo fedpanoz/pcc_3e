@@ -1,7 +1,7 @@
 from pathlib import Path
 
 
-path = Path('C:/Users/shegu/Documents/GitHub/pcc_3e/chapter_10/partial_programs/reading_from_a_file/pi_million_digits.txt')
+path = Path('C:/Users/zizza/Documents/GitHub/pcc_3e/chapter_10/partial_programs/reading_from_a_file/pi_million_digits.txt')
 contents = path.read_text()
 
 lines = contents.splitlines()
@@ -11,3 +11,4 @@ for line in lines:
 
 print(f"{pi_string[:52]}...")
 print(len(pi_string))
+
