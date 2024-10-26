@@ -11,8 +11,8 @@ def count_words(path):
         # Count the approximate number of words in the file:
         words = contents.split()
         num_words = len(words)
-        print(f"The file {path} has about {num_words} words.")
+        print(f"\nThe file {path} has about {num_words} words.")
 
 
-path = Path('alice.txt')
+path = Path('C:/Users/zizza/Documents/GitHub/pcc_3e/chapter_10/partial_programs/exceptions/alice.txt')
 count_words(path)
