@@ -7,3 +7,4 @@ contenuto = json.dumps(nome)
 oggetto.write_text(contenuto)
 
 print(f'ben tornato {nome}')
+print(type(contenuto))
