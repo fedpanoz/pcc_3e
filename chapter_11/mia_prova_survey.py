@@ -14,3 +14,5 @@ while True:
 print('Grazie a tutti per il sondaggio')
 
 lista_di_sondaggio.show_results()
+
+print(type(lista_di_sondaggio))
