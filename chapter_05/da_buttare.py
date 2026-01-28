@@ -1,4 +1,4 @@
-a = [6]
+a = []
 if a:
     print('Sono dentro')
 elif not a:
